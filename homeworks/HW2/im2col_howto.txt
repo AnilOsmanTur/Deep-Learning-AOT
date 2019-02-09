@@ -1,0 +1,5 @@
+In task 1, you were asked to execute "python setup.py build_ext --inplace", which were supposed to generate and compile "im2col_cython.c". However, some of you have encountered an error in running this since "python setup.py build_ext --inplace" did not generate a new C file seeing my forgotten copy in the folder.
+
+You should remove this C file and then run "python setup.py build_ext --inplace".
+
+
